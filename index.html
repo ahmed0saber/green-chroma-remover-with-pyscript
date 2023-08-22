@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Green Chroma Remover with PyScript</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css">
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <canvas id="canvas">
+        <p>No canvas support!</p>
+    </canvas>
+    <div class="btns-container">
+        <button class="with-btn">Process With PyScript</button>
+        <button class="without-btn">Process Without PyScript</button>
+    </div>
+    <p>This process took: <span class="time-taken">0</span>ms</p>
+    <py-script src="./script.py"></py-script>
+</body>
+<script src='./script.js'></script>
+
+</html>
